@@ -1,17 +1,17 @@
 export const tasks = [
   {
     id: 0,
-    title: "Mi primer tarea",
-    description: "Mi primer detalle",
+    title: "Aprender bases de React",
+    description: "Conocer estructura basica, jsx",
   },
   {
     id: 1,
-    title: "Mi segunda tarea",
-    description: "Mi segundo detalle",
+    title: "Conocer los hooks de React",
+    description: "useState, useEffect y useContext",
   },
   {
     id: 2,
-    title: "Mi tercer tarea",
-    description: "Mi tercer detalle",
+    title: "Subir a Github el resultado",
+    description: "Subir el repositorio y emplear los github pages",
   },
 ];

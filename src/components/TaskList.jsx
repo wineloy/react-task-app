@@ -13,7 +13,7 @@ const {tasks} = useContext(TaskContext)
   }
 
   return (
-    <div className='grid grid-cols-4 gap-2 p-4'>
+    <div className='grid sm:grid-cols-1 md:grid-cols-4 gap-2 p-4'>
       {tasks.map((task) => (
        <TaskCard key={task.id} task={task}/>
       ))}
